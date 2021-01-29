@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0px 20px;
+}
+
+.container nav {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 6px;
+}
+
+.container .nav-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0.375rem;
+}
+
+.hero {
+  margin: 10px;
+}
+
+.left-text .main-text {
+  text-align: center;
+  font-size: 38px;
+  background: linear-gradient(to right, #c73fef, #de1515);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 30px;
+}
+.left-text .sub-text {
+  text-align: center;
+
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.hero-img svg {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  max-width: 40vh;
+  margin: auto;
+}
+.second-container {
+  margin-top: -65px;
+  background-color: #191717;
+}
+
+.right-grid svg {
+  display: none;
+}
+.left-text2 {
+  margin-top: -40px;
+}
+.main-text2 {
+  text-align: center;
+  font-size: 38px;
+  background: linear-gradient(to bottom, #c73fef, #de1515);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 30px;
+}
+.sub-text2 {
+  text-align: center;
+
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.middle-text {
+  text-align: center;
+  padding: 16px;
+  font-size: 45px;
+  background: linear-gradient(to left, #c73fef, #de1515);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.goals-element {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+.goals-element .goal1 {
+  background: linear-gradient(to right, #c73fef, #de1515);
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 55%;
+  margin: 0 auto 13px auto;
+}
+.goals-element .goal2 {
+  margin-top: 10px;
+  background: linear-gradient(to right, #c73fef, #de1515);
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 55%;
+  margin: 0 auto 15px auto;
+}
+.goals-element .goal3 {
+  margin-top: 10px;
+  background: linear-gradient(to right, #c73fef, #de1515);
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 55%;
+  margin: 0 auto 15px auto;
+}
+.goals-element .goal4 {
+  margin-top: 10px;
+  background: linear-gradient(to right, #c73fef, #de1515);
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 55%;
+  margin: 0 auto 15px auto;
+}
+.goal1 img {
+  display: none;
+}
+.goal4 img {
+  display: none;
+}
+.middle-grid .sub-text21 {
+  font-size: 19px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .nav-text {
+    margin-left: 50px;
+  }
+  .container .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  .hero .left-text {
+    width: 400px;
+    margin-top: -100px;
+    padding: 10px;
+  }
+  .hero .hero-img svg {
+    width: 340px;
+    margin-top: -40px;
+    margin-right: -17px;
+    min-width: 30vh;
+  }
+  .goal1 img {
+    display: none;
+  }
+  .goal4 img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .nav-text {
+    margin-left: 50px;
+  }
+  .hero {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .grid-elements {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .left-text2 {
+    width: auto;
+    grid-column: 1/2;
+  }
+  .main-text2 {
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    text-align: center;
+  }
+  .right-grid svg {
+    display: grid;
+  }
+
+  .middle-grid {
+    width: auto;
+    margin-top: 170px;
+  }
+  .right-grid svg {
+    width: auto;
+    margin: auto;
+    height: 300px;
+    margin-top: 15px;
+  }
+  .goals-element {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .goal1 {
+    grid-column: 2/3;
+    max-height: 100px;
+    font-size: 10px;
+    width: 600px;
+  }
+  .goal2 {
+    grid-column: 2/3;
+    max-height: 100px;
+    font-size: 10px;
+    width: 600px;
+  }
+  .goal3 {
+    grid-column: 2/3;
+    max-height: 100px;
+    font-size: 10px;
+    width: 600px;
+  }
+  .goal4 {
+    grid-column: 2/3;
+    max-height: 100px;
+    font-size: 9px;
+    width: 600px;
+  }
+  .goal1 img {
+    display: none;
+  }
+  .goal4 img {
+    display: none;
+  }
+  .middle-text {
+    margin-top: -240px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .nav-text {
+    margin: 5px 0px 5px 5px;
+    border: none;
+    text-decoration: none;
+  }
+  .container {
+    margin: 10px 100px 10px 50px;
+  }
+  .container .hero {
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+  }
+  .left-text {
+    grid-column: 1/2;
+    margin: 0 auto;
+  }
+  .left-text .main-text {
+    font-size: 2.5rem;
+    width: 400px;
+    letter-spacing: 0px;
+  }
+  .second-container {
+    margin: 10px 187px 10px 187px;
+    height: auto;
+  }
+
+  .goals-element {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .goals-element .goal1 {
+    position: relative;
+    margin-top: 290px;
+  }
+  .goals-element .goal2 {
+    margin-top: 240px;
+    margin-left: -20px;
+    height: 50px;
+  }
+  .goals-element .goal3 {
+    height: 70px;
+    margin-top: 170px;
+    margin-left: -10px;
+  }
+  .goals-element .goal4 {
+    position: relative;
+    height: 65px;
+    margin-top: 100px;
+    margin-left: -10px;
+  }
+  .main-text2 {
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+  .sub-text2 {
+    width: 400px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .middle-text {
+    font-size: 80px;
+    max-height: 100px;
+    margin-top: -269px;
+  }
+  .sub-text21 {
+    text-align: center;
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .goal1 img {
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    margin-top: -450px;
+    margin-left: -200px;
+  }
+  .goal4 img {
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    height: 180px;
+    margin-top: -190px;
+    margin-left: 55px;
+  }
+}
